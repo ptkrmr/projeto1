@@ -5,7 +5,6 @@ header{
 	height: 150px;
 	display: flex;
 	justify-content: space-around;
-	border: 1px solid black;
 }
 header nav ul{
 	display: flex
@@ -23,4 +22,8 @@ header nav ul li a:hover{
 }
 header img{
 	height: 100%;
+}
+#banner{
+	height: 350px;
+	background: #FFE4E1;
 }
