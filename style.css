@@ -1,19 +1,20 @@
-*{margin: 0; padding: 0}
+*{margin: 0; padding:0}
 header{
-	background: #E6E6FA;
-	align-items: center;
 	height: 150px;
 	display: flex;
+	align-items: center;
 	justify-content: space-around;
+	background: #E6E6FA;
+	
 }
 header nav ul{
-	display: flex
+	display: flex;
 }
 header nav ul li{
-	list-style: none;
+	list-style:none;
 	margin: 10px;
 }
-header nav li a{
+header nav ul li a{
 	text-decoration: none;
 	color: #9370DB;
 }
@@ -23,7 +24,49 @@ header nav ul li a:hover{
 header img{
 	height: 100%;
 }
-#banner{
+section#banner{
 	height: 350px;
 	background: #FFE4E1;
+}
+section#noticias{
+	width: 1100px;
+	height: auto;
+	margin: 0 auto;
+}
+section#noticias ul li{
+	list-style: none;
+	width: 350px;
+	height: 350px;
+	background: #E6E6FA;
+}
+section#noticias img{
+	text-align: center;
+	height: 100px;
+	width: 100%;
+}
+section#noticias .categoria{
+	text-align: center;
+	background: #E6E6FA;
+	color: #E6E6FA;
+	display: block;
+	padding: 5px 0;
+}
+section#noticias h2{
+	font-size: 35px;
+	color: #E6E6FA;
+	text-align: center;
+}
+section#noticias h3{
+	text-align: center;	
+	font-size: 35px;
+	font-family: Arial;
+	margin: 25px 0;
+	text-transform: uppercase;
+}
+section#noticias ul li a{
+	text-align: center;
+	color: white;
+	background: red;
+	display: block;
+	padding: 5px 0;
 }
