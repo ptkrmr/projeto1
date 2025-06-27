@@ -39,7 +39,7 @@ section#noticias ul{
 }
 section#noticias ul li{
 	list-style: none;
-	width: 300px;
+	width: 346px;
 	height: 300px;
 	background: #87CEFA;
 	margin: 10px;
@@ -47,7 +47,7 @@ section#noticias ul li{
 section#noticias img{
 	text-align: center;
 	height: 100px;
-	width: 300px;
+	width: 346px;
 	;
 }
 section#noticias .categoria{
@@ -83,4 +83,11 @@ selection#noticias ul li a:hover{
 selection#noticias ul li p{
 	text-aling: center;
 	margin: 15px 0;
+}
+section#projetos h4{
+	text-align: center;	
+	font-size: 35px;
+	font-family: Arial;
+	margin: 25px 0;
+	text-transform: uppercase;
 }
