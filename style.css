@@ -5,6 +5,7 @@ header{
 	align-items: center;
 	justify-content: space-around;
 	border: 1px solid black;
+	background: red;
 }
 header nav ul{
 	display: flex;
@@ -146,7 +147,7 @@ section#projetos ul li h3{
 	padding: 10px;
 }
 footer{
-	height: 350px;
+	height: 225px;
 	background: blue;
 	color: #fff;
 	display: flex;
