@@ -1,11 +1,16 @@
 *{margin: 0; padding:0}
+body{
+	background: #FFF0F5;
+}
+
+
 header{
 	height: 150px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	border: 1px solid black;
-	background: red;
+	background: #E6E6FA;
 }
 header nav ul{
 	display: flex;
@@ -24,46 +29,22 @@ header nav ul li a:hover{
 header img{
 	height: 100%;
 }
+
+
 section#banner{
 	width: 100%;
 	height: 350px;
-	background: url("https://mitsui-shopping-park.com/lalaport/koshien/shopnews/3070030/image1.jpg");
+	background: url("https://wallpapers.com/images/hd/sanrio-characters-in-the-pink-sky-4cap3ma52cfah591.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%
 }
+
+
 section#noticias{
 	width: 1100px;
 	height: auto;
 	margin: 0 auto;
-}
-section#noticias ul{
-	display: flex;
-    flex-wrap: wrap;
-}
-section#noticias ul li{
-	list-style: none;
-	width: 346px;
-	height: 300px;
-	background: #87CEFA;
-	margin: 10px;
-}
-section#noticias img{
-	text-align: center;
-	height: 100px;
-	width: 346px;
-}
-section#noticias .categoria{
-	text-align: center;
-	background: #EE82EE;
-	color: #C71585;
-	display: block;
-	padding: 5px 0;
-}
-section#noticias h2{
-	font-size: 35px;
-	color: #E0FFFF;
-	text-align: center;
 }
 section#noticias h3{
 	text-align: center;	
@@ -72,17 +53,221 @@ section#noticias h3{
 	margin: 25px 0;
 	text-transform: uppercase;
 }
-section#noticias ul li a{
+section#noticias ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+section#noticias ul li{
+	list-style: none;
+	margin: 10px;
+}
+
+
+section#noticias img{
 	text-align: center;
-	font-size: 19px;
-	color: white;
-	background: red;
+	height: 100px;
+	width: 346px;
+}
+
+
+section#noticias .hello{
+	background: #FA8072;
+	width: 346px;
+	height: 230px;
+}
+section#noticias .aggre{
+	background: #FFA07A;
+	width: 346px;
+	height: 230px;
+}
+section#noticias .kuromi{
+	background: #FFB6C1;
+	width: 346px;
+	height: 230px;
+}
+section#noticias .pompompurim{
+	background: #F0E68C;
+	width: 346px;
+	height: 210px;
+}
+section#noticias .keroppi{
+	background: #90EE90;
+	width: 346px;
+	height: 210px;
+}
+section#noticias .chococat{
+	background: #B0E0E6;
+	width: 346px;
+	height: 210px;
+}
+
+
+section#noticias .categoria{
+	text-align: center;
+	background: #B22222;
+	color: #FA8072;
 	display: block;
 	padding: 5px 0;
 }
-selection#noticias ul li a:hover{
-	background: blue;
+section#noticias .categoria1{
+	text-align: center;
+	background: #FF4500;
+	color: #FFA07A;
+	display: block;
+	padding: 5px 0;
 }
+section#noticias .categoria2{
+	text-align: center;
+	background: #FF1493;
+	color: #FFB6C1;
+	display: block;
+	padding: 5px 0;
+}
+section#noticias .categoria3{
+	text-align: center;
+	background: #DAA520;
+	color: #F0E68C;
+	display: block;
+	padding: 5px 0;
+}
+section#noticias .categoria4{
+	text-align: center;
+	background: #2E8B57;
+	color: #90EE90;
+	display: block;
+	padding: 5px 0;
+}
+section#noticias .categoria5{
+	text-align: center;
+	background: #4682B4;
+	color: #B0E0E6;
+	display: block;
+	padding: 5px 0;
+}
+
+
+.hello h2{
+	font-size: 35px;
+	color: #FFE4E1;
+	text-align: center;
+}
+.aggre h2{
+	font-size: 35px;
+	color: #FFDAB9;
+	text-align: center;
+}
+.kuromi h2{
+	font-size: 35px;
+	color: #FFE4E1;
+	text-align: center;
+}
+.pompompurim h2{
+	font-size: 35px;
+	color: #FFFFE0;
+	text-align: center;
+}
+.keroppi h2{
+	font-size: 35px;
+	color: #FAFAD2;
+	text-align: center;
+}
+.chococat h2{
+	font-size: 35px;
+	color: #E0FFFF;
+	text-align: center;
+}
+
+
+.hello p{
+	color: #B22222;
+}
+.aggre p{
+	color: #FF4500;
+}
+.kuromi p{
+	color: #FF1493;
+}
+.pompompurim p{
+	color: #DAA520;
+}
+.keroppi p{
+	color: #2E8B57;
+}
+.chococat p{
+	color: #4682B4;
+}
+
+
+.hello a{
+	text-align: center;
+	font-size: 19px;
+	color: #FA8072;
+	background: #B22222;
+	display: block;
+	padding: 5px 0;
+}
+.aggre a{
+	text-align: center;
+	font-size: 19px;
+	color: #FFA07A;
+	background: #FF4500;
+	display: block;
+	padding: 5px 0;
+}
+.kuromi a{
+	text-align: center;
+	font-size: 19px;
+	color: #FFB6C1;
+	background: #FF1493;
+	display: block;
+	padding: 5px 0;
+}
+.pompompurim a{
+	text-align: center;
+	font-size: 19px;
+	color: #F0E68C;
+	background: #DAA520;
+	display: block;
+	padding: 5px 0;
+}
+.keroppi a{
+	text-align: center;
+	font-size: 19px;
+	color: #90EE90;
+	background: #2E8B57;
+	display: block;
+	padding: 5px 0;
+}
+.chococat a{
+	text-align: center;
+	font-size: 19px;
+	color: #B0E0E6;
+	background: #4682B4;
+	display: block;
+	padding: 5px 0;
+}
+
+
+.hello a:hover{
+	background: #FFE4E1;
+}
+.aggre a:hover{
+	background: #FFDAB9;
+}
+.kuromi a:hover{
+	background: #FFE4E1;
+}
+.pompompurim a:hover{
+	background: #FFFFE0;
+}
+.keroppi a:hover{
+	background: #FAFAD2;
+}
+.chococat a:hover{
+	background: #E0FFFF;
+}
+
+
 selection#noticias ul li p{
 	text-aling: center;
 	margin: 15px 0;
@@ -91,17 +276,16 @@ section#projetos h1{
 	text-align: center;	
 	font-size: 35px;
 	font-family: Arial;
-	margin: 25px 0;
+	margin: 20px;
 	text-transform: uppercase;
 }
 section#projetos ul li{
 	overflow: hidden;
 	height: 450px;
-	margin: 10px;
+	margin: 20px;
 	position: relative;
 	border-radius: 30px;
 }
-
 section#projetos{
 	width: 1100px;
 	height: auto;
@@ -136,20 +320,24 @@ section#projetos h2{
 	color: #E0FFFF;
 	text-align: center;
 }
-section#projetos ul li img{
-
-}
 section#projetos ul li h3{
 	position: absolute;
 	bottom: 30px;
-	background: blue;
+	background: #FFB6C1;
+	color: #fff;
+	padding: 10px;
+}
+section#projetos ul li h4{
+	position: absolute;
+	bottom: 30px;
+	background: #8B008B;
 	color: #fff;
 	padding: 10px;
 }
 footer{
 	height: 225px;
 	background: blue;
-	color: #fff;
+	color: red;
 	display: flex;
 	width: 1100px;
 	margin: 0 auto;
@@ -158,9 +346,26 @@ footer .logo{
 	width: 400px;
 }
 footer .logo img{
-	width: 100%;
+	width: 400px;
 }
 footer ul li{
 	line-height: 50px;
 	list-style: none;
+	
+}
+.morango h1{
+	font-size: 30px;
+	color: #E0FFFF;
+	text-align: center;
+}
+.morango p{
+	font-size: 20px;
+	color: #E0FFFF;
+	text-align: center;
+}
+.morango a{
+	font-size: 20px;
+	color: #E0FFFF;
+	text-align: center;
+	margin: 10px;
 }
