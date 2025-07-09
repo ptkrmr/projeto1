@@ -11,6 +11,7 @@ header{
 	justify-content: space-around;
 	border: 1px solid black;
 	background: #E6E6FA;
+	
 }
 header nav ul{
 	display: flex;
@@ -22,9 +23,11 @@ header nav ul li{
 header nav ul li a{
 	text-decoration: none;
 	color: #9370DB;
+
 }
 header nav ul li a:hover{
 	color: #FF1493;
+	
 }
 header img{
 	height: 100%;
@@ -49,9 +52,12 @@ section#noticias{
 section#noticias h3{
 	text-align: center;	
 	font-size: 35px;
-	font-family: Arial;
 	margin: 25px 0;
 	text-transform: uppercase;
+	color: #FF69B4;
+	font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 section#noticias ul{
 	display: flex;
@@ -60,6 +66,9 @@ section#noticias ul{
 section#noticias ul li{
 	list-style: none;
 	margin: 10px;
+	font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -275,9 +284,12 @@ selection#noticias ul li p{
 section#projetos h1{
 	text-align: center;	
 	font-size: 35px;
-	font-family: Arial;
 	margin: 20px;
 	text-transform: uppercase;
+	color: #FF69B4;
+	font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 section#projetos ul li{
 	overflow: hidden;
@@ -285,6 +297,9 @@ section#projetos ul li{
 	margin: 20px;
 	position: relative;
 	border-radius: 30px;
+	font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 section#projetos{
 	width: 1100px;
@@ -336,7 +351,7 @@ section#projetos ul li h4{
 }
 footer{
 	height: 225px;
-	background: blue;
+	background: #FFB6C1;
 	color: red;
 	display: flex;
 	width: 1100px;
@@ -351,21 +366,24 @@ footer .logo img{
 footer ul li{
 	line-height: 50px;
 	list-style: none;
+	font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
 	
 }
 .morango h1{
 	font-size: 30px;
-	color: #E0FFFF;
+	color: #8B008B;
 	text-align: center;
 }
 .morango p{
 	font-size: 20px;
-	color: #E0FFFF;
+	color: #FF1493;
 	text-align: center;
 }
 .morango a{
 	font-size: 20px;
-	color: #E0FFFF;
+	color: #8B008B;
 	text-align: center;
 	margin: 10px;
 }
